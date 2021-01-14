@@ -6,7 +6,7 @@ export default function BridgeCaseStudy() {
       <div className="flex flex-1 justify-around flex-col lg:flex-row">
         <div className="lg:mr-4 lg:m-10 m-4 sm:mb-0 flex justify-center">
           <div className="max-w-2xl">
-            <LazyLoad>
+            <LazyLoad offset={100} once>
               <img
                 alt="bridgeapi logo"
                 src="/assets/images/bridge_logo.svg"
@@ -22,12 +22,14 @@ export default function BridgeCaseStudy() {
         </div>
 
         <div className="sm:mt-0 lg:text-left lg:m-10 lg:ml-4 mx-4 mb-4 flex flex-col">
-          <LazyLoad>
-            <img
-              alt="bridgeapi logo"
-              src="/assets/images/bridge_logo.svg"
-              className="md:max-w-md self-center hidden lg:block"
-            />
+          <LazyLoad offset={100} once>
+            <div className="flex flex-col">
+              <img
+                alt="bridgeapi logo"
+                src="/assets/images/bridge_logo.svg"
+                className="md:max-w-md self-center hidden lg:block"
+              />
+            </div>
           </LazyLoad>
           <p
             className="mt-3 mb-4 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center"
