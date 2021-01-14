@@ -15,7 +15,7 @@ export default function BridgeCaseStudy() {
 
               <img
                 alt="create bridge gif"
-                src="/assets/gifs/create_bridge.gif"
+                src="/assets/gifs/bridge_min.gif"
               />
             </LazyLoad>
           </div>
