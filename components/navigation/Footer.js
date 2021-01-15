@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Container from './container';
+import Container from '../container';
 
 export default function Footer() {
   return (
@@ -35,7 +35,7 @@ export default function Footer() {
                 Github
               </p>
               <Image
-                src="/assets/images/github.png"
+                src="/assets/images/github.svg"
                 width={50}
                 height={50}
               />

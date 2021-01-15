@@ -13,10 +13,10 @@ export default function BridgeCaseStudy() {
                 className="md:max-w-md self-center lg:hidden mx-auto mb-4"
               />
 
-              <img
-                alt="create bridge gif"
-                src="/assets/gifs/bridge_min.gif"
-              />
+              <video autoPlay loop muted playsInline>
+                <source src="/assets/gifs/bridge_min.webm" type="video/webm" />
+                <source src="/assets/gifs/bridge_min.mp4" type="video/mp4" />
+              </video>
             </LazyLoad>
           </div>
         </div>

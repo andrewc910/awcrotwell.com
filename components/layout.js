@@ -1,6 +1,6 @@
-import Footer from './footer';
+import Footer from './navigation/Footer';
 import Meta from './meta';
-import Navbar from './navbar';
+import Navbar from './navigation/Navbar';
 
 export default function Layout({ children }) {
   return (
@@ -8,7 +8,8 @@ export default function Layout({ children }) {
       <Meta />
 
       <div>
-        <Navbar />
+        {/* Disabled until project write ups are complete */}
+        {/* <Navbar /> */}
         <main>{children}</main>
       </div>
       <Footer />
