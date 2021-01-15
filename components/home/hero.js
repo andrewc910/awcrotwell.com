@@ -64,7 +64,7 @@ export default function Hero() {
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-black">
         <img
           className="hidden lg:block object-cover object-top h-full w-full"
-          src="/assets/images/andrew7.jpg"
+          src="/assets/images/andrew6.jpg"
           alt=""
         />
       </div>
