@@ -4,7 +4,7 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto">
         <div
-          className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 desktop-min-h-100"
+          className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-3xl lg:w-full lg:pb-28 xl:pb-32 desktop-min-h-100"
         >
           {/* Makes cut through main photo */}
           <svg
@@ -22,8 +22,8 @@ export default function Hero() {
           <main className="mt-0 md:mt-0 sm:mt-0 mx-auto max-w-7xl px-4 sm:mt-0 sm:px-0 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="md:block lg:hidden flex justify-center">
               <img
-                className="object-cover w-full h-full mx-auto"
-                src="/assets/images/andrew.png"
+                className="object-cover object-top w-full h-full mx-auto"
+                src="/assets/images/andrew_min.jpg"
                 alt=""
                 style={{
                   borderRadius: '50%',
@@ -63,8 +63,8 @@ export default function Hero() {
       </div>
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-black">
         <img
-          className="hidden lg:block object-cover object-top h-full w-full"
-          src="/assets/images/andrew6.jpg"
+          className="hidden lg:block object-top object-cover h-full ml-auto"
+          src="/assets/images/andrew_min.jpg"
           alt=""
         />
       </div>
