@@ -1,13 +1,10 @@
-import Image from 'next/image';
-
 export default function Hero() {
   return (
     <div className="relative bg-white overflow-hidden">
 
       <div className="max-w-7xl mx-auto">
         <div
-          className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
-          style={{ minHeight: 'calc(100vh - 64px)' }}
+          className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg-max-w-52 lg:w-full lg:pb-28 xl:pb-32 desktop-min-h-100"
         >
           {/* Makes cut through main photo */}
           <svg
@@ -65,7 +62,11 @@ export default function Hero() {
         </div>
       </div>
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img className="hidden lg:block w-full object-cover w-full h-full" src="/assets/images/andrew.png" alt="" />
+        <img
+          className="hidden lg:block object-cover ml-auto h-full"
+          src="/assets/images/andrew5.jpg"
+          alt=""
+        />
       </div>
     </div>
   );

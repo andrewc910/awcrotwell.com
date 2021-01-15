@@ -13,3 +13,13 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+
+@media (min-width: 1025px) {
+  .desktop-min-h-100 {
+    min-height: calc(100vh - 64px);
+  }
+
+  .lg-max-w-52 {
+    max-width: 52rem;
+  }
+}
