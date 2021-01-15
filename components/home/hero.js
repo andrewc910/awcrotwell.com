@@ -4,7 +4,7 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto">
         <div
-          className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg-max-w-52 lg:w-full lg:pb-28 xl:pb-32 desktop-min-h-100"
+          className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 desktop-min-h-100"
         >
           {/* Makes cut through main photo */}
           <svg
@@ -61,10 +61,10 @@ export default function Hero() {
           </main>
         </div>
       </div>
-      <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-black">
         <img
-          className="hidden lg:block object-cover ml-auto h-full"
-          src="/assets/images/andrew5.jpg"
+          className="hidden lg:block object-cover object-top h-full w-full"
+          src="/assets/images/andrew7.jpg"
           alt=""
         />
       </div>
