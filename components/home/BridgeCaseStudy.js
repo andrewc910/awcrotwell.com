@@ -15,11 +15,7 @@ export default function BridgeCaseStudy() {
 
               <video autoPlay loop muted playsInline>
                 <source src="/assets/gifs/bridge_min.webm" type="video/webm" />
-                {/* <img
-                  alt="create bridge gif"
-                  src="/assets/gifs/bridge_min.gif"
-                /> */}
-                You suck
+                <source src="/assets/gifs/bridge_min.mp4" type="video/mp4" />
               </video>
             </LazyLoad>
           </div>

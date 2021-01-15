@@ -43,9 +43,7 @@ export default function Navbar() {
               <span className="sr-only">
                 Open main menu
               </span>
-              {/* <!-- Icon when menu is closed. --> */}
-              {/* Heroicon name: menu
-                Menu open: "hidden", Menu closed: "block" */}
+
               <svg
                 className="block h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
@@ -62,12 +60,7 @@ export default function Navbar() {
                   d="M4 6h16M4 12h16M4 18h16"
                 />
               </svg>
-              {/* <!-- Icon when menu is open. --> */}
-              {/* <!--
-              Heroicon name: x
 
-              Menu open: "block", Menu closed: "hidden"
-            --> */}
               <svg
                 className="hidden h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,19 +77,11 @@ export default function Navbar() {
                 />
               </svg>
             </button>
+
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-            <div className="flex-shrink-0 flex items-center">
-              <img
-                className="block h-8 w-auto"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                alt="Workflow"
-              />
-            </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
-                {/* Current: "bg-gray-900 text-white",
-                    Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                 <Link href="/">
                   <a className={navItemClassList('/')}>
                     Home
@@ -118,15 +103,8 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* <!--
-      Mobile menu, toggle classes based on menu state.
-
-      Menu open: "block", Menu closed: "hidden"
-    --> */}
       <div className="hidden sm:hidden" ref={clickEl}>
         <div className="px-2 pt-2 pb-3 space-y-1">
-          {/* Current: "bg-gray-900 text-white",
-              Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
           <Link href="/">
             <a className={mobileNavItemClassList('/')}>
               Home

@@ -8,7 +8,8 @@ export default function Layout({ children }) {
       <Meta />
 
       <div>
-        <Navbar />
+        {/* Disabled until project write ups are complete */}
+        {/* <Navbar /> */}
         <main>{children}</main>
       </div>
       <Footer />
