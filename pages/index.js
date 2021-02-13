@@ -3,6 +3,7 @@ import Container from '../components/container';
 import Layout from '../components/layout';
 import Hero from '../components/home/hero';
 import BridgeCaseStudy from '../components/home/BridgeCaseStudy';
+import OtherProjects from '../components/home/OtherProjects';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         </Head>
         <Hero />
         <BridgeCaseStudy />
+        <OtherProjects />
       </Layout>
     </>
   );
