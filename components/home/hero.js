@@ -36,25 +36,25 @@ export default function Hero() {
             <div className="text-center lg:text-left sm:mt-12">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Hello world, I&#39;m </span>
-                <span className="block text-indigo-600 xl:inline">Andrew Crotwell</span>
+                <span className="block text-pink-600 xl:inline">Andrew Crotwell</span>
               </h1>
               <p
                 className="mt-3 mb-4 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               >
                 I&apos;m a full-stack software engineer. I&apos;m originally from Los Angeles,
-                California and am currently located in Ashevile, North Carolina.
+                California and am currently located in Asheville, North Carolina.
                 <br />
                 <br />
                 I prefer working with
-                <span className="text-indigo-600 font-semibold"> Ruby on Rails</span>
+                <span className="text-pink-600 font-semibold"> Ruby on Rails</span>
                 ,
-                <span className="text-indigo-600 font-semibold"> React</span>
+                <span className="text-pink-600 font-semibold"> React</span>
                 {' '}
                 with
-                <span className="text-indigo-600 font-semibold">Typescript</span>
+                <span className="text-pink-600 font-semibold">Typescript</span>
                 , but I enjoy learning new languages and technologies.
                 Lately, I have been working with
-                <span className="text-indigo-600 font-semibold"> Go</span>
+                <span className="text-pink-600 font-semibold"> Go</span>
                 .
               </p>
             </div>
