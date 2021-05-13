@@ -3,19 +3,25 @@ import React from 'react';
 export default function OtherProjects() {
   const projects = [
     {
-      title: 'Article Title',
-      image: '',
-      description: '',
+      title: 'Motion.cr',
+      image: 'https://raw.githubusercontent.com/awcrotwell/motion.cr/master/images/logo.svg',
+      description: 'Motion is a framework for building reactive, real-time frontend UI components in your Amber application using pure Crystal that are reusable, testable & encapsulated.',
+      url: 'https://github.com/awcrotwell/motion.cr',
+      tags: ['crystal', 'backend'],
     },
     {
-      title: 'Article Title',
-      image: '',
-      description: '',
+      title: 'Jello - Task Manajer',
+      image: 'https://raw.githubusercontent.com/awcrotwell/mochi/master/logo.svg',
+      description: 'Jello is a trello clone, react application.',
+      url: 'https://github.com/awcrotwell/jello',
+      tags: ['react', 'frontend', 'CSS'],
     },
     {
-      title: 'hArticle Title',
-      image: '',
-      description: '',
+      title: 'Mochi',
+      image: 'https://raw.githubusercontent.com/awcrotwell/mochi/master/logo.svg',
+      description: 'Mochi is a authentication shard inspired by devise designed for the Amber framework.',
+      url: 'https://github.com/awcrotwell/mochi',
+      tags: ['crystal', 'backend', 'authentication'],
     },
   ];
 
@@ -24,37 +30,37 @@ export default function OtherProjects() {
       <div className="container my-12 mx-auto px-4">
         <div className="flex flex-wrap -mx-1 lg:-mx-4">
 
-          {projects.map(({ title }) => (
+          {projects.map(({
+            title, description, url, tags, image,
+          }) => (
             <div className="my-1 px-1 w-1/2 lg:my-4 lg:px-4 lg:w-1/3 md:w-1/3">
 
-              <article className="overflow-hidden rounded-lg shadow-lg">
+              <a href={url}>
+                <article className="overflow-hidden rounded-lg shadow-lg">
 
-                <a href="#">
-                  <img alt="Placeholder" className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
-                </a>
+                  <img alt="Placeholder" className="block h-auto w-full max-h-64" src={image} />
 
-                <header className="flex items-center justify-center leading-tight p-2 md:p-4">
-                  <h1 className="text-lg">
-                    <a className="no-underline hover:underline text-black" href="#">
-                      {title}
-                    </a>
-                  </h1>
-                </header>
+                  <header className="flex items-center justify-center leading-tight p-2 md:p-4">
+                    <h1 className="text-lg">
+                      <div className="no-underline hover:underline text-black">
+                        {title}
+                      </div>
+                    </h1>
+                  </header>
 
-                <footer className="flex items-center justify-between leading-none p-2 md:p-4">
-                  <a className="flex items-center no-underline hover:underline text-black" href="#">
+                  <footer className="flex items-center justify-between leading-none p-2 md:p-4">
                     <p className="hidden md:block text-center">
-                      Author Name Author Name Author Name Author Name Author Name Author Name
-                      Author Name Author Name Author Name Author Name Author Name Author Name
+                      {description}
                     </p>
-                  </a>
-                  <a className="no-underline text-grey-darker hover:text-red-dark" href="#">
-                    <div className="max-w-full leading-none text-xs font-normal">名称</div>
-                  </a>
-                </footer>
+                  </footer>
+                  <div className="px-2 pt-4 pb-2">
+                    {tags.map((tag) => (
+                      <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tag}</span>
+                    ))}
+                  </div>
 
-              </article>
-
+                </article>
+              </a>
             </div>
           ))}
 
