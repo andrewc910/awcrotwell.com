@@ -7,38 +7,40 @@ export default function OtherProjects() {
       image: 'https://raw.githubusercontent.com/awcrotwell/motion.cr/master/images/logo.svg',
       description: 'Motion is a framework for building reactive, real-time frontend UI components in your Amber application using pure Crystal that are reusable, testable & encapsulated.',
       url: 'https://github.com/awcrotwell/motion.cr',
-      tags: ['crystal', 'backend'],
+      tags: ['Crystal', 'Backend', 'SSR'],
     },
     {
-      title: 'Jello - Task Manajer',
+      title: 'Jello - Task Manager',
       image: 'https://raw.githubusercontent.com/awcrotwell/mochi/master/logo.svg',
       description: 'Jello is a trello clone, react application.',
-      url: 'https://github.com/awcrotwell/jello',
-      tags: ['react', 'frontend', 'CSS'],
+      url: 'https://github.com/petertdelia/jello-task-manajer',
+      tags: ['React', 'Frontend', 'CSS'],
     },
     {
       title: 'Mochi',
       image: 'https://raw.githubusercontent.com/awcrotwell/mochi/master/logo.svg',
       description: 'Mochi is a authentication shard inspired by devise designed for the Amber framework.',
       url: 'https://github.com/awcrotwell/mochi',
-      tags: ['crystal', 'backend', 'authentication'],
+      tags: ['Crystal', 'Backend', 'Authentication'],
     },
   ];
 
   return (
-    <section>
-      <div className="container my-12 mx-auto px-4">
+    <section className="bg-gray-100">
+      <div className="container py-12 mx-auto px-4 bg-gray-100">
         <div className="flex flex-wrap -mx-1 lg:-mx-4">
 
           {projects.map(({
             title, description, url, tags, image,
           }) => (
-            <div className="my-1 px-1 w-1/2 lg:my-4 lg:px-4 lg:w-1/3 md:w-1/3">
+            <div className="my-1 px-1 w-1/2 lg:my-4 lg:px-4 lg:w-1/3 md:w-1/3" kye={title}>
 
               <a href={url}>
-                <article className="overflow-hidden rounded-lg shadow-lg">
+                <article className="overflow-hidden rounded-lg shadow-lg bg-white">
 
-                  <img alt="Placeholder" className="block h-auto w-full max-h-64" src={image} />
+                  <div className="m-4" style={{ maxHeight: '5rem', minHeight: '5rem' }}>
+                    <img alt="Placeholder" className="block h-auto w-full max-h-64" src={image} />
+                  </div>
 
                   <header className="flex items-center justify-center leading-tight p-2 md:p-4">
                     <h1 className="text-lg">

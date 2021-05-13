@@ -46,12 +46,12 @@ export default function Hero() {
                 <br />
                 <br />
                 I prefer working with
-                <span className="text-pink-600 font-semibold"> Ruby on Rails</span>
-                ,
+                <span className="text-pink-600 font-semibold"> Ruby on Rails </span>
+                and
                 <span className="text-pink-600 font-semibold"> React</span>
                 {' '}
                 with
-                <span className="text-pink-600 font-semibold">Typescript</span>
+                <span className="text-pink-600 font-semibold"> Typescript</span>
                 , but I enjoy learning new languages and technologies.
                 Lately, I have been working with
                 <span className="text-pink-600 font-semibold"> Go</span>

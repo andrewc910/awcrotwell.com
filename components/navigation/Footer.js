@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
           <div className="my-2 mr-6">
             <a
-              href="https://github.com/andrewc910"
+              href="https://github.com/awcrotwell"
               target="_blank"
               rel="noreferrer"
               className="flex flex-col"
