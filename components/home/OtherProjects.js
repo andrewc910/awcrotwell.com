@@ -11,7 +11,7 @@ export default function OtherProjects() {
     },
     {
       title: 'Jello - Task Manager',
-      image: 'https://raw.githubusercontent.com/awcrotwell/mochi/master/logo.svg',
+      image: '/assets/images/jello-dashboard.png',
       description: 'Jello is a trello clone, react application.',
       url: 'https://github.com/petertdelia/jello-task-manajer',
       tags: ['React', 'Frontend', 'CSS'],
@@ -33,12 +33,16 @@ export default function OtherProjects() {
           {projects.map(({
             title, description, url, tags, image,
           }) => (
-            <div className="my-1 px-1 w-1/2 lg:my-4 lg:px-4 lg:w-1/3 md:w-1/3" kye={title}>
+            <div className="my-1 px-1 w-1/2 lg:my-4 lg:px-4 lg:w-1/3 md:w-1/3" key={title}>
 
-              <a href={url}>
+              <a
+                href={url}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <article className="overflow-hidden rounded-lg shadow-lg bg-white">
 
-                  <div className="m-4" style={{ maxHeight: '5rem', minHeight: '5rem' }}>
+                  <div className="m-4">
                     <img alt="Placeholder" className="block h-auto w-full max-h-64" src={image} />
                   </div>
 
