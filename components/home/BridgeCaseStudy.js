@@ -2,7 +2,7 @@ import LazyLoad from 'react-lazyload';
 
 export default function BridgeCaseStudy() {
   return (
-    <section className="bg-gray-100">
+    <section>
       <div className="flex flex-1 justify-around flex-col lg:flex-row">
         <div className="lg:mr-4 lg:m-10 m-4 sm:mb-0 flex justify-center">
           <div className="max-w-2xl">
@@ -18,6 +18,10 @@ export default function BridgeCaseStudy() {
                 <source src="/assets/gifs/bridge_min.mp4" type="video/mp4" />
               </video>
             </LazyLoad>
+
+            <div className="px-2 pt-4 pb-2 text-center text-gray-500">
+              Built with: Ruby on Rails, JavaScript, React, Material UI
+            </div>
           </div>
         </div>
 
@@ -31,6 +35,7 @@ export default function BridgeCaseStudy() {
               />
             </div>
           </LazyLoad>
+
           <p
             className="mt-3 mb-4 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0 text-center"
           >
@@ -44,7 +49,7 @@ export default function BridgeCaseStudy() {
               href="https://bridgeapi-dev.github.io/"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+              className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 md:py-4 md:text-lg md:px-10"
             >
               View Case Study
             </a>
