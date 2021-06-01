@@ -33,7 +33,7 @@ export default function OtherProjects() {
           {projects.map(({
             title, description, url, tags, image,
           }) => (
-            <div className="my-1 px-1 w-1/2 lg:my-4 lg:px-4 lg:w-1/3 md:w-1/3" key={title}>
+            <div className="my-1 px-1 w-100 lg:my-4 lg:px-4 lg:w-1/3 md:w-1/3" key={title}>
 
               <a
                 href={url}
@@ -55,7 +55,7 @@ export default function OtherProjects() {
                   </header>
 
                   <footer className="flex items-center justify-between leading-none p-2 md:p-4">
-                    <p className="hidden md:block text-center">
+                    <p className="md:block text-center">
                       {description}
                     </p>
                   </footer>
