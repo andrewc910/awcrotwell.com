@@ -6,7 +6,7 @@ export default function BridgeCaseStudy() {
       <div className="flex flex-1 justify-around flex-col lg:flex-row">
         <div className="lg:mr-4 lg:m-10 m-4 sm:mb-0 flex justify-center">
           <div className="max-w-2xl">
-            <LazyLoad offset={100} once>
+            <LazyLoad offset={200} once>
               <img
                 alt="bridgeapi logo"
                 src="/assets/images/bridge_logo.svg"

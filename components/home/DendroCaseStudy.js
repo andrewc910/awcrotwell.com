@@ -6,7 +6,7 @@ export default function BridgeCaseStudy() {
       <div className="flex flex-1 justify-around flex-col lg:flex-row">
 
         <div className="sm:mt-0 lg:text-left lg:m-10 lg:ml-4 mx-4 mb-4 flex flex-col">
-          <LazyLoad offset={100} once>
+          <LazyLoad offset={200} once>
             <div className="flex flex-col">
               <img
                 alt="dendro logo"
