@@ -7,14 +7,14 @@ export default function OtherProjects() {
       image: 'https://raw.githubusercontent.com/awcrotwell/motion.cr/master/images/logo.svg',
       description: 'Motion is a framework for building reactive, real-time frontend UI components in your Amber application using pure Crystal that are reusable, testable & encapsulated.',
       url: 'https://github.com/awcrotwell/motion.cr',
-      tags: ['Crystal', 'Backend', 'SSR'],
+      tags: ['Crystal', 'Redis', 'SSR'],
     },
     {
       title: 'Jello - Task Manager',
       image: '/assets/images/jello-dashboard.png',
       description: 'Jello is a trello clone, react application.',
       url: 'https://github.com/petertdelia/jello-task-manajer',
-      tags: ['React', 'Frontend', 'CSS'],
+      tags: ['React', 'Redux', 'MongoDB'],
     },
     {
       title: 'Mochi',
