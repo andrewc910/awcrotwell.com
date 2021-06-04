@@ -37,18 +37,18 @@ export default function BridgeCaseStudy() {
 
         <div className="lg:mr-4 lg:m-10 m-4 sm:mb-0 flex justify-center">
           <div className="max-w-2xl">
-            {/* <LazyLoad offset={100} once>
+            <LazyLoad offset={100} once>
               <video autoPlay loop muted playsInline>
-                <source src="/assets/gifs/dendro.webm" type="video/webm" />
-                <source src="/assets/gifs/dendro.mp4" type="video/mp4" />
+                <source src="/assets/gifs/cli-deploy.webm" type="video/webm" />
+                <source src="/assets/gifs/cli-deploy.mp4" type="video/mp4" />
               </video>
-            </LazyLoad> */}
+            </LazyLoad>
 
-            <img
+            {/* <img
               alt="dendro logo"
               src="/assets/images/dendro-services.png"
               className="bg-gray-100"
-            />
+            /> */}
 
             <div className="px-2 pt-4 pb-2 text-center text-gray-500">
               Built with: Go, Typescript, NextJS, AWS
