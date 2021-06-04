@@ -23,7 +23,7 @@ export default function Hero() {
             <div className="md:block lg:hidden flex justify-center">
               <img
                 className="object-cover object-top w-full h-full mx-auto"
-                src="/assets/images/andrew_min.jpg"
+                src="/assets/images/andi_min.jpg"
                 alt=""
                 style={{
                   borderRadius: '50%',
@@ -36,7 +36,7 @@ export default function Hero() {
             <div className="text-center lg:text-left sm:mt-12">
               <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Hello world, I&#39;m </span>
-                <span className="block text-pink-600 xl:inline">Andrew Crotwell</span>
+                <span className="block text-pink-600 xl:inline">Andi Crotwell</span>
               </h1>
               <p
                 className="mt-3 mb-4 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
@@ -64,7 +64,7 @@ export default function Hero() {
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 bg-black">
         <img
           className="hidden lg:block object-top object-cover h-full ml-auto"
-          src="/assets/images/andrew_min.jpg"
+          src="/assets/images/andi_min.jpg"
           alt=""
         />
       </div>
