@@ -13,7 +13,7 @@ export default function BridgeCaseStudy() {
                 className="md:max-w-md self-center lg:hidden mx-auto mb-4"
               />
 
-              <video autoPlay loop muted playsInline>
+              <video autoPlay loop muted playsInline style={{borderRadius: '8px'}} class="shadow">
                 <source src="/assets/gifs/bridge_min.webm" type="video/webm" />
                 <source src="/assets/gifs/bridge_min.mp4" type="video/mp4" />
               </video>
