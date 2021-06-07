@@ -63,7 +63,7 @@ export default function Footer() {
           </div>
           <div className="my-2">
             <a
-              href="/"
+              href="/assets/pdfs/resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="flex flex-col"

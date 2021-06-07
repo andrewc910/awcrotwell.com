@@ -12,7 +12,7 @@ export default function OtherProjects() {
     {
       title: 'Jello - Task Manager',
       image: '/assets/images/jello-dashboard.png',
-      description: 'Jello is a trello clone, react application.',
+      description: 'A full-stack, fully functional project management application (featuring drag and drop and more), built with React, Redux, Express, MongoDB, and more.',
       url: 'https://github.com/petertdelia/jello-task-manajer',
       tags: ['React', 'Redux', 'MongoDB'],
     },
